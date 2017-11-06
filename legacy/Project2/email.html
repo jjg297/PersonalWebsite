@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>
+			P2: Email Form
+		</title>
+		<meta NAME= "AUTHOR" CONTENT= "Jesus Garcia - CS212" >
+	</head>
+	<body style="background-color:#F4A460;">
+		<p lang="en-us">
+		<h1> Welcome to the Project 2 Webspace </h1> <hr >
+		<form action="email.html">
+			Reason for Emailing? <br />
+			Comment: <input type="radio" name="reason" value="Comment" checked="checked" /><br />
+			Question:   <input type="radio" name="reason" value="Question" /><br />
+			Urgent!:    <input type="radio" name="reason" value="Urgent" /> <hr >
+			
+			<table style="width:25%">
+				<tr>
+					<td>Your Email Address:<br /></td>
+					<td><input type="text" name="email" size="20" maxlength="30" /></td>
+				</tr>
+				<tr>
+					<td>Your name:</td>
+					<td><input type="text" name="name" size="20" maxlength="30" /></td>
+				</tr>
+				<tr>
+					<td>Subject:</td>
+					<td><input type="text" name="Subject" size="20" maxlength="120" /></td>
+				</tr>
+				<tr>
+					<td>Email Reply?</td>
+					<td><input type="checkbox" name="reply" value="reply" /></td>
+				</tr>
+				<tr>
+					<td>Message:</td>
+					<td><textarea name="body" cols="40" rows="10">Enter your message:</textarea></td>
+				</tr>
+			</table> <br />
+			<input type="submit" name="send" value="Send Email" /> <br /><br />
+			<a href="/~jjg297/index.html"> Return to main page</a> <br /><hr >
+			<img src="/~jjg297/VenGoh.png" alt="A very nice picture" title="This beautiful piece of artwork was sold for $100,000,000,000 last year." /> <br />
+		</form>
+		</p>
+	</body>
+</html>
+

@@ -1,0 +1,69 @@
+/* o	At least one page should have an overall CSS design containing the following div elements:
+	A pageContainer containing all the other div elements.
+	A mainContent area.  If liquid width, it must not exceed a “book-sized” width if the browser window is expanded.
+o	Other CSS to include:
+	A Relative element that has its content shifted one or more directions.
+
+	An image element positioned so it is behind other elements.
+*/
+#page-container{
+	background-color: #E9A0A0;
+	width: 720px;
+}
+#header{
+	position: relative;
+	background-color: #d0d0f0;
+	margin-left: 10px;
+	width: 720px;
+	color: #0080FF;
+	font-family: verdana;
+}
+/* This sidebar is relative with the page container */
+#leftSidebar{
+	float: left;
+	font-size: 125%;
+	position: relative;
+	border: 2px solid #556644;
+	background-color: #ffaf2f;
+	padding: 1mm;
+	width: auto;
+	top: 15px;
+	height: 90px;
+}
+#mainContent{
+	position: relative;
+	margin: auto;
+	width: 240px;
+	height: 220px;
+	top: 20px;
+}
+#footer{
+	position: fixed;
+	bottom: 50px;
+}
+#fixedNotification{
+	position: fixed;
+	bottom: 75px;
+	right: 20px;
+	width: 150px;
+	height: 50px;
+	border: 3px solid blue;
+	background-color: #cfcfcf;
+}
+#AbsPos{
+	position: absolute;
+	left: 20px;
+	bottom: 150px;
+	z-index: -1;
+}
+#AbsPos2{
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 125%;
+	border: 3px solid black;
+	left: 10px;
+	bottom: 50px;
+	z-index: 2;
+}
+
+/* */ 
